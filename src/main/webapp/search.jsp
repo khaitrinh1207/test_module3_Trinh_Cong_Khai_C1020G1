@@ -15,8 +15,8 @@
 <body>
 
 <h3><a href="/product">Trang chủ</a></h3>
-<div>
-    <caption>List Products</caption>
+<div align="center">
+    <caption><h2>List Products</h2></caption>
     <table border="1">
         <tr>
             <th>#</th>
@@ -34,7 +34,7 @@
                 <td><c:out value="${p.price}"></c:out></td>
                 <td><c:out value="${p.amount}"></c:out></td>
                 <td><c:out value="${p.color}"></c:out></td>
-                <td><c:out value="${nameCategory}"></c:out></td>
+                <td><c:out value="${p.category_id}"></c:out></td>
                 <td>
                     <a href="/product?action=edit&id=${p.id}">Sửa</a>
                     <a href="/product?action=delete&id=${p.id}">Xóa</a>

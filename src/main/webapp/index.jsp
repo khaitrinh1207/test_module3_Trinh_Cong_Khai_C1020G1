@@ -19,7 +19,7 @@
 <div>
     <form action="/product?action=search" method="post">
       <input type="search" name="search" placeholder="search">
-      <input type="submit" value="submit">
+      <input type="submit" value="Search">
     </form>
 </div>
 <div align="center">
